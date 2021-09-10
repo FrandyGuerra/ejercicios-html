@@ -31,7 +31,7 @@
         },
         "translations": []
     },
-    "currentExercise": "01-welcome",
+    "currentExercise": "02-Website-Structure",
     "language": "html",
     "slug": "html-tutorial-exercises-course",
     "skills": [
@@ -155,7 +155,7 @@
                 "us": "README.md"
             },
             "language": "html",
-            "entry": "exercises/02-Website-Structure/index.html",
+            "entry": "index.html",
             "title": "02-Website-Structure",
             "graded": true,
             "files": [
