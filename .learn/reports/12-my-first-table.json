@@ -1,0 +1,33 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 3,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mReplicate Nested Tag Example › <tr>[0] bgcolor, height, align\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"40px\"\u001b[39m\n    Received: \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 21 |\u001b[39m          \u001b[36mconst\u001b[39m allTR \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelectorAll(\u001b[32m\"tr\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 22 |\u001b[39m         expect(allTR[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39mbackgroundColor)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"red\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 23 |\u001b[39m         expect(allTR[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39mheight)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"40px\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                       \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 24 |\u001b[39m         expect(allTR[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39malign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"left\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 25 |\u001b[39m     })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 26 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/12-my-first-table/tests.js\u001b[39m\u001b[0m\u001b[2m:23:39)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mReplicate Nested Tag Example › All <tr> tag exists & all <tr> align=left\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"left\"\u001b[39m\n    Received: \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 29 |\u001b[39m         expect(allTR\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBe(\u001b[35m4\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 30 |\u001b[39m          \u001b[36mfor\u001b[39m (\u001b[36mlet\u001b[39m i\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mi\u001b[33m<\u001b[39m\u001b[33mallTR\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mi\u001b[33m++\u001b[39m){\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 31 |\u001b[39m         expect(allTR[i]\u001b[33m.\u001b[39malign)\u001b[33m.\u001b[39mtoBe(\u001b[32m\"left\"\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m         }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 33 |\u001b[39m  })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 34 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/12-my-first-table/tests.js\u001b[39m\u001b[0m\u001b[2m:31:32)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mReplicate Nested Tag Example › All <th> tag exists & innerHTML\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[32m- \u001b[39m\n    \u001b[32m- \t\t\t\t\tName\u001b[39m\n    \u001b[32m- \u001b[7m\t\t\t\t\u001b[27m\u001b[39m\n    \u001b[31m+ Name\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 |\u001b[39m         \u001b[36mfor\u001b[39m(\u001b[36mlet\u001b[39m i\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mi\u001b[33m<\u001b[39m\u001b[33mallTH\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mi\u001b[33m++\u001b[39m){\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m             \u001b[36mif\u001b[39m (i\u001b[33m===\u001b[39m\u001b[35m0\u001b[39m){\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 40 |\u001b[39m         expect(allTH[i]\u001b[33m.\u001b[39minnerHTML)\u001b[33m.\u001b[39mtoBe(\u001b[32m`\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 |\u001b[39m \u001b[32m\t\t\t\t\tName\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m \u001b[32m\t\t\t\t`\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 |\u001b[39m             }\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/12-my-first-table/tests.js\u001b[39m\u001b[0m\u001b[2m:40:36)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "<table> tag, width & border exist",
+      "status": "passed"
+    },
+    {
+      "title": "<tr>[0] bgcolor, height, align",
+      "status": "failed"
+    },
+    {
+      "title": "All <tr> tag exists & all <tr> align=left",
+      "status": "failed"
+    },
+    {
+      "title": "All <th> tag exists & innerHTML",
+      "status": "failed"
+    },
+    {
+      "title": "All <td> tag exists, innerHTML",
+      "status": "passed"
+    }
+  ]
+}

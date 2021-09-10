@@ -1,0 +1,49 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 8,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mFormat the exact same styles with pure html, use h1 headings, paragraph, strong, blockquote, ol and il › All <p> tags and innerHTML Exist\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m\"We are going to explain in this p\u001b[7mh\u001b[27maragraph the 3 most common signs that \u001b[7myou \u001b[27mshould look into yourself to recognize if you are learning.\"\u001b[39m\n    Received: \u001b[31m\"We are going to explain in this paragraph the 3 most common signs that should look into yourself to recognize if you are learning.\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 64 |\u001b[39m         \u001b[36mfor\u001b[39m (\u001b[36mlet\u001b[39m i \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m i \u001b[33m<\u001b[39m allP\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m i\u001b[33m++\u001b[39m) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 65 |\u001b[39m             \u001b[36mif\u001b[39m (i \u001b[33m===\u001b[39m \u001b[35m0\u001b[39m) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 66 |\u001b[39m                 expect(allP[i]\u001b[33m.\u001b[39minnerHTML)\u001b[33m.\u001b[39mtoBe(\u001b[32m`We are going to explain in this pharagraph the 3 most common signs that you should look into yourself to recognize if you are learning.`\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                           \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 67 |\u001b[39m             }\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 68 |\u001b[39m             \u001b[36mif\u001b[39m (i \u001b[33m===\u001b[39m \u001b[35m1\u001b[39m) {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 69 |\u001b[39m                 expect(allP[i]\u001b[33m.\u001b[39minnerHTML)\u001b[33m.\u001b[39mtoBe(\u001b[32m`If you cant sleep, what better than watching videos of cats? <a href=\\\"https://www.google.com\\\">click here</a>`\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/10-replicate-html/tests.js\u001b[39m\u001b[0m\u001b[2m:66:43)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "Order of html tags",
+      "status": "passed"
+    },
+    {
+      "title": "<h1> tag & innerHTML Exist",
+      "status": "passed"
+    },
+    {
+      "title": "<h2> tag & innerHTML Exist",
+      "status": "passed"
+    },
+    {
+      "title": "All <p> tags and innerHTML Exist",
+      "status": "failed"
+    },
+    {
+      "title": "<ol> Exist",
+      "status": "passed"
+    },
+    {
+      "title": "<ul> Exist",
+      "status": "passed"
+    },
+    {
+      "title": "<li> Exist",
+      "status": "passed"
+    },
+    {
+      "title": "<li> Inner HTML Exist",
+      "status": "passed"
+    },
+    {
+      "title": "<a> tag and href Exist",
+      "status": "passed"
+    }
+  ]
+}
